@@ -6,13 +6,17 @@
 
 body {
     padding: 30px;
-    text-align: center;
+    -ms-flex-align: center;
     image-resolution: 200px;
-    
+    background-color: #949494 ;
 }
 
 p {
-
+    font-size: large;
+    padding: 30px;
+    text-align: center;
+    background: #8AAAE5;
+    color: rgb(255, 255, 255);
 }
 
 /* header */
@@ -133,3 +137,32 @@ header nav ul li a {
     height: 200px;
     object-fit: fill;
   }
+
+  .card_image3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;  
+  }
+
+  .card_image3 {
+    width: 50%;
+    height: 200px;
+    object-fit: fill;
+  }
+
+
+  /* contact info */
+
+ .contact-info {
+    margin: 50px auto;
+    padding-bottom: 70px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: x-large;
+ }
